@@ -36,41 +36,37 @@
 	<section class="form-page">
 		<div class="form-page__inner">
 
-			<span class="form-page__title"></span>
-			<p class="form-page__text"></p>
+			<p class="form-page__title"></p>
+			<p class="form-page__description"></p>
 		
-			<section class="check-in-out">
-				<div class="inner">
-
-					<span class="step"></span>
-					<span class="form-steps__title"></span>
+			
+			<form action="" class="booking-form">
+			
+					<p class="step"></p>
+					<p class="form-steps__title"></p>
 
 					<span class="check-title"></span>
-					<input type="text" class="check-date">
+					<input type="text" name="" min-length="" class="check-date">
+					<input type="text" name="" min-length="" class="check-date">
+					<input type="text" name="" min-length="" class="check-date">
 					<span class="check-title"></span>
-					<input type="text" class="check-date">
+					<input type="text" name="" min-length="" class="check-date">
+					<input type="text" name="" min-length="" class="check-date">
+					<input type="text" name="" min-length="" class="check-date">
 
-				</div>
-			</section>
 
-			<section class="place-choice">
-				<div class="place-choice__inner">
+					<p class="step"></p>
+					<p class="form-steps__title"></p>
 
-					<span class="step"></span>
-					<span class="form-steps__title"></span>
+					<input id="hotel" type="checkbox" class="place-name__choice">
+					<label for="#hotel" class="place-name">Отель</label>
+					<input id="cottage" type="checkbox" class="place-name__choice">
+					<label for="#cottage" class="place-name">Коттедж</label>
 
-					<span class="place-name">Отель</span>
-					<span class="place-name">Коттедж</span> 
-<!-- 					псевдоэлемент :after иконка 
- -->
-				</div>
-			</section>
 
-			<section class="cottage-type">
-				<div class="cottage-type__inner">
+					<p class="step"></p>
+					<p class="form-steps__title"></p>
 
-					<span class="step"></span>
-					<span class="form-steps__title"></span>
 
 					<ul class="cottage-type__list">
 
@@ -113,14 +109,8 @@
 
 					</ul>
 
-				</div>
-			</section>
-
-			<section class="personal-info">
-				<div class="personal-info__inner">
-
-					<span class="step"></span>
-					<span class="form-steps__title"></span>
+					<p class="step"></p>
+					<p class="form-steps__title"></p>
 
 
 					<input type="text" class="personal-info__input">
@@ -129,57 +119,38 @@
 					<input type="text" class="personal-info__input">
 					<input type="text" class="personal-info__input">
 					<p class="personal-info__text">Далеко-далеко за словесными.</p>
-				
-				</div>
-			</section>
 
-			<section class="payment">
-				<div class="payment__inner">
+					<p class="step"></p>
+					<p class="form-steps__title"></p>
 					
-					<span class="step"></span>
-					<span class="form-steps__title"></span>
 
-					<div class="bill">
-						<div class="bill__inner">
+					<p class="bill__title"></p>
+					<p class="bill__value"></p>
+					<p class="bill__error"></p>
 
-							<span class="bill__title"></span>
-							<span class="bill__value"></span>
-							<p class="bill__error"></p>
-
-						</div>
-					</div>
-
-					<div class="payment-arrival">
-						<div class="payment-arrival__inner">
-
-						<span class="payment-arrival__title"></span>
-						<span class="payment-arrival__text"></span>
+					<p class="payment-arrival__title"></p>
+					<p class="payment-arrival__text"></p>
 						
-						</div>
-					</div>
 
-					<div class="payment-now">
-						<div class="payment-now__inner">
+					<p class="payment-now__title"></p>
+					<p class="payment-now__text"></p>
 
-							<span class="payment-now__title"></span>
-							<span class="payment-now__text"></span>
-
-							<span class="payment-now__input-description"></span>
-							<input type="text" class="payment-now__input">
-							<span class="payment-now__input-description"></span>
-							<input type="text" class="payment-now__input">
-							<span class="payment-now__input-description"></span>
-							<input type="text" class="payment-now__input">
-							<span class="payment-now__input-description"></span>
-							<input type="text" class="payment-now__input">
+							<input id="card-number" type="text" class="payment-now__input">
+							<label for="#card-number" class="payment-now__input-description"></label>
+							<input id="cardholder" type="text" class="payment-now__input">
+							<label for="#cardholder" class="payment-now__input-description"></label>
+							<input id="cvv" type="text" class="payment-now__input">
+							<label for="#cvv" class="payment-now__input-description"></label>
+							<input id="best-before" type="text" class="payment-now__input">
+							<label for="#best-before" class="payment-now__input-description"></label>
 						
 						</div>
 					</div>
 
 					<a href="#booking-form" class="btn btn--green btn--wide">Забронировать</a>
-				</div>
-			</section>
 
+
+			</form>
 		</div>
 	</section>
 
