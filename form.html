@@ -46,27 +46,30 @@
 					<p class="form-steps__title">Дата отдыха</p>
 
 					<span class="check-title">Дата въезда</span>
-					<input type="text" name="" min-length="" class="check-date">
-					<input type="text" name="" min-length="" class="check-date">
-					<input type="text" name="" min-length="" class="check-date">
+					<input type="text" name="dd" maxlength="2" class="check-date" max="31">
+					<input type="text" name="mm" maxlength="2" class="check-date" max="12">
+					<input type="text" name="yy" maxlength="4" class="check-date" max="2016">
 					<span class="check-title">Дата выезда</span>
-					<input type="text" name="" min-length="" class="check-date">
-					<input type="text" name="" min-length="" class="check-date">
-					<input type="text" name="" min-length="" class="check-date">
-
+					<input type="text" name="dd" maxlength="2" class="check-date" max="31">
+					<input type="text" name="mm" maxlength="2" class="check-date" max="12">
+					<input type="text" name="yy" maxlength="4" class="check-date" max="2016">
 
 					<p class="step">Шаг 2</p>
 					<p class="form-steps__title">Место проживания</p>
+					
+					<div class="places">
 
-					<input id="hotel" type="checkbox" class="place-name__choice">
-					<label for="#hotel" class="place-name">Отель</label>
-					<input id="cottage" type="checkbox" class="place-name__choice">
-					<label for="#cottage" class="place-name">Коттедж</label>
+					<input id="hotel" type="radio" class="place-name__choice" value="Hotel" name="type">
+					<label for="hotel" class="place-name">Отель</label>
 
+					<input id="cottage" type="radio" class="place-name__choice" value="Cottage" name="type">
+					<label for="cottage" class="place-name">Коттедж</label>
 
+					
 					<p class="step">Шаг 3</p>
 					<p class="form-steps__title">Тип коттеджа</p>
-
+					
+					<div class="place-name-choosen place-name-choosen--cottage">
 
 					<ul class="cottage-type__list">
 
@@ -108,6 +111,10 @@
 						</li>
 
 					</ul>
+
+					</div>
+					
+					</div>
 
 					<p class="step">Шаг 4</p>
 					<p class="form-steps__title">Персональная информация</p>
