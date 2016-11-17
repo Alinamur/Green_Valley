@@ -14,19 +14,19 @@
 			<div class="main-nav">
 				<nav class="main-nav__nav">
 					<ul class="main-nav__list">
-						<li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="">lorem</a></li>
-						<li class="main-nav__item"><a class="main-nav__link" href="">lorem</a></li>
-						<li class="main-nav__item"><a class="main-nav__link" href="">lorem</a></li>
-						<li class="main-nav__item"><a class="main-nav__link" href="">lorem</a></li>
-						<li class="main-nav__item"><a class="main-nav__link" href="">lorem</a></li>
+						<li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="">Номера</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="">Коттедж</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="">Ресторан</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="">Отдых</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="">Контакты</a></li>
 					</ul>
 				</nav>
 				<span class="main-nav__toggler"></span>
 			</div>
 
 			<div class="page-header__contacts">
-				<a href="tel:+78120000000" class="page-header__phone-link">+7 (812) 0000000</a>
-				<div class="page-header__address">Далеко-далеко за.</div>
+				<a href="tel:+78120000000" class="page-header__phone-link">+7 812 777-55-88</a>
+				<div class="page-header__address">г. Санкт-Петербург, Приморское ш.600</div>
 			</div>
 
 			<a href="#booking-form" class="btn btn--orange btn--icon-calendar">Забронировать</a>
@@ -36,27 +36,27 @@
 	<section class="form-page">
 		<div class="form-page__inner">
 
-			<p class="form-page__title"></p>
-			<p class="form-page__description"></p>
+			<p class="form-page__title">Бронирование</p>
+			<p class="form-page__description">Чтобы забронировать номер в отеле или коттедж, заполните форму ниже или просто позвоните по телефону: <span class="form-page__description form-page__description--orange">+7 812 777-55-88</span></p>
 		
 			
 			<form action="" class="booking-form">
-			
-					<p class="step"></p>
-					<p class="form-steps__title"></p>
 
-					<span class="check-title"></span>
+					<p class="step">Шаг 1</p>
+					<p class="form-steps__title">Дата отдыха</p>
+
+					<span class="check-title">Дата въезда</span>
 					<input type="text" name="" min-length="" class="check-date">
 					<input type="text" name="" min-length="" class="check-date">
 					<input type="text" name="" min-length="" class="check-date">
-					<span class="check-title"></span>
+					<span class="check-title">Дата выезда</span>
 					<input type="text" name="" min-length="" class="check-date">
 					<input type="text" name="" min-length="" class="check-date">
 					<input type="text" name="" min-length="" class="check-date">
 
 
-					<p class="step"></p>
-					<p class="form-steps__title"></p>
+					<p class="step">Шаг 2</p>
+					<p class="form-steps__title">Место проживания</p>
 
 					<input id="hotel" type="checkbox" class="place-name__choice">
 					<label for="#hotel" class="place-name">Отель</label>
@@ -64,13 +64,22 @@
 					<label for="#cottage" class="place-name">Коттедж</label>
 
 
-					<p class="step"></p>
-					<p class="form-steps__title"></p>
+					<p class="step">Шаг 3</p>
+					<p class="form-steps__title">Тип коттеджа</p>
 
 
 					<ul class="cottage-type__list">
 
-						<li class="cottage-type__item">
+						<li class="cottage-type__item"> Флагман
+							<ul class="cottage-opportunities__list">
+								<li class="cottage-opportunities__item">Площадь 100м2</li>
+								<li class="cottage-opportunities__item">3 комнаты</li>
+								<li class="cottage-opportunities__item">5 спальных мест</li>
+								<li class="cottage-opportunities__item">Раздельный санузел</li>
+								<li class="cottage-opportunities__item">WI-FI</li>
+							</ul>
+						</li>
+						<li class="cottage-type__item"> Озёрный
 							<ul class="cottage-opportunities__list">
 								<li class="cottage-opportunities__item"></li>
 								<li class="cottage-opportunities__item"></li>
@@ -79,7 +88,7 @@
 								<li class="cottage-opportunities__item"></li>
 							</ul>
 						</li>
-						<li class="cottage-type__item">
+						<li class="cottage-type__item"> Ольховка
 							<ul class="cottage-opportunities__list">
 								<li class="cottage-opportunities__item"></li>
 								<li class="cottage-opportunities__item"></li>
@@ -88,16 +97,7 @@
 								<li class="cottage-opportunities__item"></li>
 							</ul>
 						</li>
-						<li class="cottage-type__item">
-							<ul class="cottage-opportunities__list">
-								<li class="cottage-opportunities__item"></li>
-								<li class="cottage-opportunities__item"></li>
-								<li class="cottage-opportunities__item"></li>
-								<li class="cottage-opportunities__item"></li>
-								<li class="cottage-opportunities__item"></li>
-							</ul>
-						</li>
-						<li class="cottage-type__item">
+						<li class="cottage-type__item"> Портовый
 							<ul class="cottage-opportunities__list">
 								<li class="cottage-opportunities__item"></li>
 								<li class="cottage-opportunities__item"></li>
@@ -109,40 +109,40 @@
 
 					</ul>
 
-					<p class="step"></p>
-					<p class="form-steps__title"></p>
+					<p class="step">Шаг 4</p>
+					<p class="form-steps__title">Персональная информация</p>
 
 
 					<input type="text" class="personal-info__input">
 					<input type="text" class="personal-info__input">
-					<p class="personal-info__text">Далеко-далеко за словесными.</p>
+					<p class="personal-info__text">Мы свяжемся с вами в случае необходимости.</p>
 					<input type="text" class="personal-info__input">
 					<input type="text" class="personal-info__input">
-					<p class="personal-info__text">Далеко-далеко за словесными.</p>
+					<p class="personal-info__text">На этот адрес мы вышлем вам подтверждение о забронированном номере.</p>
 
-					<p class="step"></p>
-					<p class="form-steps__title"></p>
+					<p class="step">Шаг 5</p>
+					<p class="form-steps__title">Способ оплаты</p>
 					
 
-					<p class="bill__title"></p>
-					<p class="bill__value"></p>
-					<p class="bill__error"></p>
+					<p class="bill__title">К оплате</p>
+					<p class="bill__value">-</p>
+					<p class="bill__error">Пожалуйста, выберите дату въезда и выезда, чтобы увидеть сумму к оплате</p>
 
-					<p class="payment-arrival__title"></p>
-					<p class="payment-arrival__text"></p>
+					<p class="payment-arrival__title">По приезду</p>
+					<p class="payment-arrival__text">Вы можете произвести оплату по факту заселения.</p>
 						
 
-					<p class="payment-now__title"></p>
-					<p class="payment-now__text"></p>
+					<p class="payment-now__title">Сейчас</p>
+					<p class="payment-now__text">Прямо сейчас вы можете произвести оплату с помощью банковской карты.</p>
 
 							<input id="card-number" type="text" class="payment-now__input">
-							<label for="#card-number" class="payment-now__input-description"></label>
+							<label for="#card-number" class="payment-now__input-description">Номер карты</label>
 							<input id="cardholder" type="text" class="payment-now__input">
-							<label for="#cardholder" class="payment-now__input-description"></label>
+							<label for="#cardholder" class="payment-now__input-description">Фамилия владельца карты</label>
 							<input id="cvv" type="text" class="payment-now__input">
-							<label for="#cvv" class="payment-now__input-description"></label>
+							<label for="#cvv" class="payment-now__input-description">Код CVV</label>
 							<input id="best-before" type="text" class="payment-now__input">
-							<label for="#best-before" class="payment-now__input-description"></label>
+							<label for="#best-before" class="payment-now__input-description">Действует до</label>
 						
 						</div>
 					</div>
@@ -157,14 +157,16 @@
 	<footer class="page-footer">
 		<div class="page-footer__inner">
 
-			<div class="page-footer__address"></div>
+			<div class="page-footer__address">г. Санкт-Петербург, Приморское ш.600</div>
 			
 			<a href="/" class="main-logo"><img src="" alt=""></a>
 			<div class="page-footer__socio"></div>
 
-			<div class="page-footer__contacts"><a href="" class="page-footer__phone-link"></a><a href="" class="page-footer__email-link"></a></div>
+			<div class="page-footer__contacts">
+				<a href="" class="page-footer__phone-link">+7 812 777-55-88</a>
+				<a href="" class="page-footer__email-link">info@greenvalley.ru</a>
+			</div>
 
 		</div>
 	</footer>
-</body>
 </html>
