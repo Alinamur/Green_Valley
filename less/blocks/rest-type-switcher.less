@@ -1,0 +1,41 @@
+.rest-type-switcher{
+    &__type{
+        &-inner{
+            width: 100%;
+        }
+        &-title{
+            font-family: @PTfont;
+            font-size: @accent;
+            line-height: 26px;
+
+            text-align: center;
+        }
+        &-text{
+            font-family: @FSfont;
+            font-size: @paragraph;
+            line-height: 24px;
+
+            text-align: center;
+        }
+    }
+    &__options{
+        &-title{
+            font-family: @PTfont;
+            font-size: 26px;
+
+            text-align: center;
+        }
+        &-description{
+            font-family: @FSfont;
+            font-size: @paragraph;
+            line-height: 22px;
+
+            text-align: center;
+        }
+        &-list{
+        	@media(max-width: @screen-md){
+            display: none;
+        	}
+        }
+    }
+}
