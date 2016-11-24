@@ -9,3 +9,12 @@ a{
 	text-decoration: none;
 	color: @text-color;
 }
+.parent{
+	.make-row();
+	.clearfix();
+	&__child{
+		.make-xs-column(6);
+		.make-sm-column(3);
+		.make-md-column(5);
+	}
+}
