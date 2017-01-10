@@ -1,11 +1,13 @@
 .reviews-slider{
+
     &__inner{
-        width: 100%;
+        .container();
     }
     &__title{
         font-family: @main-font;
         font-size: 26px;
 		line-height: 140px;
+		color: #fff;
         // min-height: 140px;
 
         text-align: center;
@@ -18,11 +20,15 @@
 
 		font-family: @text-font;
 		text-align: center;
+		color: #000;
 
 	&-inner{
-
+		
 	}
-	&-name{
+	&-img{
+		margin-top: -60px;
+	}
+	&-name {
 		font-size: @text-small;
 		line-height: 18px;
 		font-weight: 500;

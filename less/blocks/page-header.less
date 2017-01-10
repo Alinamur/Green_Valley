@@ -1,8 +1,11 @@
 .page-header{
+    display: flex;
     color: @text-color;
+
     &__inner{
-        width: 100%;
+        .container();
     }
+    
     &__contacts{
         @media(max-width: @screen-md){
             display: none;

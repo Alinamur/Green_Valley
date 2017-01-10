@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|PT+Serif" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
@@ -10,7 +11,7 @@
 	<header class="page-header">
 		<div class="page-header__inner">
 
-			<a href="/" class="main-logo"><img src="img/main-logo.svg" alt=""></a>
+			<a href="/" class="main-logo"><img src="img/LOGO.png" alt=""></a>
 
 			<div class="main-nav">
 				<nav class="main-nav__nav">
@@ -36,10 +37,12 @@
 
 	<div class="rest-type-switcher">
 		
-		<ul class="rest-type-switcher__tab">
-			<li class="rest-type-switcher__tab-item rest-type-switcher__tab-item--active"><a href="#rest-">Семейный отдых</a></li>
-			<li class="rest-type-switcher__tab-item"><a href="#rest-type-switcher__tab-link">Корпоративный отдых</a></li>
-		</ul>
+		<div class="rest-type-switcher__tab">
+			<label for="family" class="rest-type-switcher__tab-item  rest-type-switcher__tab-item--active">Семейный отдых</label>
+			<label for="work" class="rest-type-switcher__tab-item">Корпоративный</label>
+			<input id="family" type="radio" name="switcher-input" value="family">
+			<input id="work" type="radio" name="switcher-input" value="work">
+		</div>
 
 		<div class="rest-type-switcher__type">
 			<section id="rest-family" class="rest-type-switcher__type-item  rest-type-switcher__type-item--active">
@@ -57,32 +60,32 @@
 		</div>	
 		
 		<div class="rest-type-switcher__options">
-			<section class="rest-type-switcher__options-item  rest-type-switcher__options-item--active">
+			<section id="family-options" class="rest-type-switcher__options-item  rest-type-switcher__options-item--active">
 				<div class="rest-type-switcher__options-inner">
 					<h1 class="rest-type-switcher__options-title">Здоровый отдых</h1>
 					<p class="rest-type-switcher__options-description">Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
 					<ul class="rest-type-switcher__options-list">
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Бассейн</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Спортивная площадка</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Бильярд</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Спа</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Бани</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Анимация</span>
 						</li>
@@ -90,32 +93,32 @@
 				</div>
 			</section>
 
-			<section class="rest-options-switcher__options-item">
+			<section class="rest-type-switcher__options-item">
 				<div class="rest-type-switcher__options-inner">
 					<h1 class="rest-type-switcher__options-title">Корпоративный отдых </h1>
 					<p class="rest-type-switcher__options-description">Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте корпоративный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
 					<ul class="rest-type-switcher__options-list">
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Бассейн</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Спортивная площадка</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Бильярд</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Спа</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Бани</span>
 						</li>
-						<li class="rest-type-switcher__options-item">
+						<li class="rest-type-switcher__option-item">
 							<span class="rest-type-switcher__option-pict" style="background-image: url()"></span>
 							<span class="rest-type-switcher__option-text">Анимация</span>
 						</li>
@@ -130,7 +133,7 @@
 	<div class="interior-slider">
 		<div class="interior-slider__inner">
 			<ul class="interior-slider__list">
-				<li class="interior-slider__item"><img src="" alt="" class="interior-slider_pict"></li>
+				<li class="interior-slider__item interior-slider__item--first"><img src="img/interior-1.jpg" alt="" class="interior-slider_pict"></li>
 				<li class="interior-slider__item"><img src="" alt="" class="interior-slider_pict"></li>
 				<li class="interior-slider__item"><img src="" alt="" class="interior-slider_pict"></li>
 				<li class="interior-slider__item"><img src="" alt="" class="interior-slider_pict"></li>
@@ -149,7 +152,7 @@
 
 			<div class="reviews-slider__item">
 				<div class="reviews-slider__item-inner">
-					<div src="" alt="" class="reviews-slider__item-img"><img src="" alt=""></div>
+					<div src="" alt="" class="reviews-slider__item-img"><img src="img/review-1.jpg" alt=""></div>
 					<p class="reviews-slider__item-name">Екатерина В.</p>
 					<p class="reviews-slider__item-text">Наша семья счастлива, что открыла для себя Green Valley. Замечательный, комфортный отдых. Хорошее место, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
 					<p class="reviews-slider__item-dates-title">Дата отдыха:</p>
@@ -159,7 +162,7 @@
 
 			<div class="reviews-slider__item">
 				<div class="reviews-slider__item-inner">
-					<div src="" alt="" class="reviews-slider__item-img"><img src="" alt=""></div>
+					<div src="" alt="" class="reviews-slider__item-img"><img src="img/review-2.jpg" alt=""></div>
 					<p class="reviews-slider__item-name">Екатерина В.</p>
 					<p class="reviews-slider__item-text">Спасибо всем без исключения сотрудникам отеля за прекрасные дни, проведённые у вас! Наслаждались тишиной, отдохнули прекрасно. Понравилось всё: тёплый приём персоналом.</p>
 					<p class="reviews-slider__item-dates-title">Дата отдыха:</p>
